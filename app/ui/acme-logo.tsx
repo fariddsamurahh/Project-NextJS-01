@@ -1,4 +1,4 @@
-import { GlobeAltIcon } from '@heroicons/react/24/outline';
+import { BookOpenIcon, GlobeAltIcon } from '@heroicons/react/24/outline';
 // import { Inter } from 'next/font/google';
 import { inter } from '@/app/ui/fonts';
 
@@ -7,8 +7,8 @@ export default function AcmeLogo() {
     <div
        className={`${inter.className} flex flex-row items-center leading-none text-white`}
     >
-      <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
-      <p className="text-[44px]">Acme</p>
+      <BookOpenIcon className="h-12 w-12 rotate-[0deg]" />
+      <p className="text-[21px]">Book Store</p>
     </div>
   );
 }
